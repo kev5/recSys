@@ -153,7 +153,7 @@ def recommend(person, bound, similarity=pearson_similarity):
 
 	print("Scores : ")
 	pprint.pprint(scores)
-	print("--------------------------------------------------------")
+	print("-" * 20)
 
 	recomms = {}
 
